@@ -1,0 +1,13 @@
+server:
+  port: 5001
+
+spring:
+  application:
+    name: microservice-config-application  #github上的配置名称
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liyiruo/microservice-cloud-config.git
+
+
