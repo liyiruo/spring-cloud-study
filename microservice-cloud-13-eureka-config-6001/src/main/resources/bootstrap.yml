@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      profile: dev
+      name: microservice-config-eureka
+      label: master
+      uri: http://localhost:5001   #此处是uri不是URL
