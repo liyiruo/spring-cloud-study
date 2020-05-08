@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      label: master
+      name: microservice-config-product
+      profile: prod
+      uri: http://localhost:5001

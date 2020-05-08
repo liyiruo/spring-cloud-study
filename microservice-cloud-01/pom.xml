@@ -20,6 +20,8 @@
         <module>../microservice-cloud-10-zuul-gateway-7001</module>
         <module>../microservice-cloud-11-config-server-5001</module>
         <module>../microservice-cloud-12-config-client-8080</module>
+        <module>../../microservice-cloud-13-eureka-config-6001</module>
+        <module>../microservice-cloud-14-product-config-8001</module>
     </modules>
     <!--手动指定pom打包方式-->
     <packaging>pom</packaging>
