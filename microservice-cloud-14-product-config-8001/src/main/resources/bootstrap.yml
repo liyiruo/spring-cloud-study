@@ -5,3 +5,15 @@ spring:
       name: microservice-config-product
       profile: prod
       uri: http://localhost:5001
+
+
+rabbitmq:
+  host: localhost
+  port: 5672
+  username:
+  password:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
